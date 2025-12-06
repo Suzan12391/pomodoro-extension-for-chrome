@@ -16,8 +16,4 @@ This extension was built with pure HTML, CSS, and JavaScript — no frameworks r
 - 💾 Fully offline — all assets stored locally  
 - 🎨 Clean, cute, minimal UI designed for focus  
 
----
 
-## 📦 Installation (Local Development)
-
-1. Download or clone the repository:
