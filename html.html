@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+<audio id="endSond" preload="auto" src="sounds/endsond.wav"></audio>
+<audio id="startSond" preload="auto" src="sounds/startsond.wav"></audio>
+<div class="formsContainer">
+
+  <div id="workForm" class="formBox">
+    <h3>Work</h3>
+    <input min="0" class="userInput" id="workInput" type="number" placeholder="minutes">
+    <select class="userSelect" id="workSelect">
+      <option value="5">5m</option>
+      <option value="10">10m</option>
+      <option value="25" >25m</option>
+      <option value="25" selected>30m</option>
+      <option value="25" >40m</option>
+      <option value="25" >45m</option>
+    </select>
+  </div>
+
+  <div id="breakForm" class="formBox">
+    <h3>Break</h3>
+    <input min="0" class="userInput" id="breakInput" type="number" placeholder="minutes">
+    <select class="userSelect" id="breakSelect">
+           <option value="5">5m</option>
+      <option value="10"selected>10m</option>
+      <option value="25" >25m</option>
+      <option value="25" >30m</option>
+      <option value="25" >40m</option>
+      <option value="25" >45m</option>
+    </select>
+  </div>
+
+</div>
+
+
+<div id="divv2">Let’s start! Pick Work or Break.</div>
+<div id="divv">00:00</div>
+<img id="gifBox" src="gif/Chair Working Sticker.gif" alt="">
+
+<div id="buttonContainer">
+<button id="startBtn">Start</button>
+<button id="pausetBtn">Pause / Resume</button>
+<button id="endBtn">End</button>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+
+*{
+    background-color: rgb(40, 40, 46);
+}
+
+.formsContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.formBox {
+  background-color:#522E38; 
+  border: 2px solid transparent;
+  padding: 20px;
+  width: 160px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.25s ease;  
+  transform: scale(1);    
+}
+.formBox h3 {
+  font-size: 20px;
+  color: #FFE0E9;       
+  letter-spacing: 1px;  
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+  background-color: #ffffff00;
+}
+
+.formBox input,
+.formBox select {
+  width: 80%;
+  margin-top: 10px;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  background: white;
+  color: black;
+  font-size: 14px;
+}
+
+
+.formBox.active {
+  background-color: #4CAF50;    
+  transform: scale(1.08);       
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.4);
+}
+
+
+.formBox:hover {
+  border-color: #10a62e;
+    transform: scale(1.03);
+}
+
+#divv {
+  font-size: 52px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+
+#divv2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+}
+
+
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #B9375E;
+  color: white;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.08);
+  background-color: #630824;
+}
+
+button:active {
+  transform: scale(1);
+  background-color: #13e91e;
+}
+
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button.activeBtn {
+  transform: scale(1.12);
+  background-color: #0cb615;
+  box-shadow: 0 0 15px rgba(19, 233, 30, 0.6);
+  transition: 0.25s ease;
+}
+#gifBox {
+  width: 100px;
+  display: block;
+  margin: 20px auto;
+  transition: opacity 0.3s ease;  /* أنيميشن التغيّر */
+  opacity: 1;
+}
+
+html, body {
+  width: 300px;
+  height: 520px;
+  margin: 0;
+ 
+}
+
+
+body {
+  transform: scale(0.8);
+  transform-origin:  center;
+}
+
